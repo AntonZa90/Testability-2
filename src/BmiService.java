@@ -1,6 +1,6 @@
 public class BmiService {
-    public int calculate(float height, int weight) {
-        int bmi = (int) (weight / Math.pow(height, 2));
+    public int calculate(float heightInMetre, int weightInKilogram) {
+        int bmi = (int) (weightInKilogram / Math.pow(heightInMetre, 2));
         return bmi;
     }
 }
